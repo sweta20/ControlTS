@@ -18,7 +18,7 @@ The training of ControlT5 models is based on the [linked](https://github.com/Kim
   python controlPredictor/extract_features.py --complex-file resources/data/examples.complex --simple-file resources/data/examples.simple --output-file resources/data/features.csv
 ```
 
-See examples on training single and multi regressor models in `controlPredictor/run_exps.sh`.s
+See examples on training single and multi regressor models in `controlPredictor/run_exps.sh`.
 
 
 3. For training T5 models, run:
