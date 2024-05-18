@@ -15,7 +15,7 @@ The training of ControlT5 models is based on the [linked](https://github.com/Kim
 2. For training the control predictor models, we need to first extract features from the complex and simple texts. This can be done using:
 
 ```
-  python controlPredictor/extract_features.py --complex-file data/examples.complex --simple-file data/examples.simple --output-file data/features.csv
+  python controlPredictor/extract_features.py --complex-file resources/data/examples.complex --simple-file resources/data/examples.simple --output-file resources/data/features.csv
 ```
 
 See examples on training single and multi regressor models in `controlPredictor/run_exps.sh`.s
